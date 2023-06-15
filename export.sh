@@ -6,4 +6,5 @@ do
 done
 
 rm yaml/*.json
-mv yaml/*.html ./
+
+mv yaml/*.html out/
