@@ -1,7 +1,15 @@
 {
+	"name": "resume",
+	"private": true,
+	"scripts": {
+		"test": "",
+		"export": "./export.sh",
+		"start": "",
+		"dev": ""
+	},
 	"dependencies": {
-		"jsonresume-theme-even": "^0.17.1",
-		"jsonresume-theme-onepage": "^0.0.3",
-		"resume-cli": "^3.0.8"
+		"jsonresume-theme-latte": "^1.0.0",
+		"resume-cli": "^3.0.8",
+		"yamljs": "^0.3.0"
 	}
 }

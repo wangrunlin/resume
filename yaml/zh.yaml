@@ -1,11 +1,13 @@
 $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+chinese: true
 basics:
   name: 王润林
   label: Web 全栈工程师 （前端）
   image:
   email: alin.runlin@gmail.com
-  phone: "+86 177-7859-5680"
+  phone: +86 177-7859-5680
   url: https://wangrunlin.com
+  website: https://wangrunlin.com
   summary: "Web/JavaScript 全栈开发, 开源贡献者，技术社区共建者。键盘党，喜欢各种高效 CLI 工具。有 Geek 范，认同 UNIX 设计哲学，Vimer。善于协作沟通，有团队沟通协作、项目进度及时间管理实践基础。一个终身学习者，持续学习，热爱分享，技术视野开阔，对业界新技术敏感。有代码洁癖和工程思想，期望成为创造价值的工程师，不是售卖劳力的程序员。"
   location:
     address:
@@ -17,6 +19,9 @@ basics:
     - network: GitHub
       username: wangrunlin
       url: https://github.com/wangrunlin
+    - network: Twitter
+      username: wangrunlin_
+      url: https://twitter.com/wangrunlin_
 work:
   - company: idea2App
     location: 成都
@@ -266,6 +271,6 @@ interests:
       - 骑行
       - 篮球
 meta:
-  canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json
+  canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json
   version: v1.0.0
   lastModified: "2017-12-24T15:53:00"
