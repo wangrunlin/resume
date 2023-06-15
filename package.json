@@ -8,7 +8,7 @@
 		"dev": ""
 	},
 	"dependencies": {
-		"jsonresume-theme-latte": "^1.0.0",
+		"jsonresume-theme-latte": "^1.0.2",
 		"resume-cli": "^3.0.8",
 		"yamljs": "^0.3.0"
 	}
