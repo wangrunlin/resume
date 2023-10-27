@@ -1,0 +1,1058 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>阿林</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: 0.3px;
+  color: #39424b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #2895f1;
+}
+
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+p,
+li {
+  font-size: 11px;
+}
+
+blockquote {
+  font-size: 11px;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
+}
+
+em {
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
+}
+
+ul li {
+  padding-left: 10px;
+}
+
+ul.minimal {
+  list-style: none;
+  padding: 0;
+}
+
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
+}
+
+ul.two-column li {
+  padding-left: 0;
+}
+
+@page {
+  size: A4;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817a;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
+}
+
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #56817a;
+}
+
+.summary {
+  margin: 5px 0 5px;
+}
+
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817a;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
+}
+
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
+}
+
+.references-container .fa {
+  font-size: 14px;
+}
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-skill {
+  font-size: 80%;
+}
+
+.skill {
+  margin: 0.15em;
+  padding: 0.15em;
+  background: ghostwhite;
+  border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>阿林</h1>
+            <h2>Web 全栈工程师 （前端）</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <div class="container about-container">
+        
+            <div class="title">
+                <h3>联系方式</h3>
+                <div class="keyline"></div>
+            </div>
+            <div class="info-tag-container">
+                <i class="fa fa-map-marker"></i>
+            
+                <h6 class="info-text">成都 中国 </h6>
+            </div>
+        
+            <div class="info-tag-container">
+                <i class="fa fa-envelope-o"></i>
+            
+                <h6 class="info-text">
+                    <a href="mailto:alin.runlin@gmail.com" target="_blank">
+                        alin.runlin@gmail.com
+                    </a>
+                </h6>
+            </div>
+        
+            <div class="info-tag-container">
+                <i class="fa fa-globe"></i>
+            
+                <h6 class="info-text">
+                    <a href="https://wangrunlin.com" target="_blank">
+                        wangrunlin.com
+                    </a>
+                </h6>
+            </div>
+                         <div class="info-tag-container">
+                             <i class="fa fa-github"></i>
+                         
+                             <h6 class="info-text">
+                                 <a href="https://github.com/wangrunlin" target="_blank">
+                                     wangrunlin
+                                 </a>
+                             </h6>
+                         </div>                 <div class="info-tag-container">
+                             <i class="fa fa-twitter"></i>
+                         
+                             <h6 class="info-text">
+                                 <a href="https://twitter.com/wangrunlin_" target="_blank">
+                                     wangrunlin_
+                                 </a>
+                             </h6>
+                         </div></div>            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>Web 前端</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">熟练</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">HTML 5+</h6>
+                                    <h6 class="main-skill skill">CSS 3+</h6>
+                                    <h6 class="main-skill skill">ECMAScript 6+</h6>
+                                    <h6 class="main-skill skill">TypeScript</h6>
+                                    <h6 class="main-skill skill">React</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>后端</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">熟练</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Node.js</h6>
+                                    <h6 class="main-skill skill">Koa.js</h6>
+                                    <h6 class="main-skill skill">NestJS</h6>
+                                    <h6 class="main-skill skill">Strapi (CMS)</h6>
+                                    <h6 class="main-skill skill">Java</h6>
+                                    <h6 class="main-skill skill">Spring Boot</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>开源管理</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">掌握</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">GitHub</h6>
+                                    <h6 class="main-skill skill">GitLab</h6>
+                                    <h6 class="main-skill skill">Travis CI</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>系统维护</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">熟练</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Windows</h6>
+                                    <h6 class="main-skill skill">Linux</h6>
+                                    <h6 class="main-skill skill">MacOS</h6>
+                            </div>
+                    </section>
+            </div>
+        <div class="container languages-container">
+            <div class="title">
+                <h3>语言</h3>
+                <div class="keyline"></div>
+            </div>
+            <ul class="minimal">
+                <li>
+                    <h6>中文 <em>(母语)</em></h6>
+                </li>
+                <li>
+                    <h6>英语 <em>(基础读写)</em></h6>
+                </li>
+            </ul>
+        </div>
+        <div class="container interests-container">
+            <div class="title">
+                <h3>个人兴趣</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <h4 class="bold">运动</h4>
+                <ul class="minimal">
+                    <li>骑行</li>
+                    <li>篮球</li>
+                </ul>
+            </section>
+        </div>
+      </aside>
+      <div class="right-column">
+        <div class="container summary-container">
+            <div class="title">
+                <h3>个人简介</h3>
+                <div class="keyline"></div>
+            </div>
+            <p class="summary">
+                Web/JavaScript 全栈开发, 开源贡献者，技术社区共建者。键盘党，喜欢各种高效 CLI 工具。有 Geek 范，认同 UNIX 设计哲学，Vimer。善于协作沟通，有团队沟通协作、项目进度及时间管理实践基础。一个终身学习者，持续学习，热爱分享，技术视野开阔，对业界新技术敏感。有代码洁癖和工程思想，期望成为创造价值的工程师，不是售卖劳力的程序员。
+            </p>
+        </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>工作经历</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://idea2.app" target="_blank">
+                                idea2app
+                                    <span class="sublink">∙ <a href="https://idea2.app" target="_blank" class="sublink">https://idea2.app</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+        
+                <h4>全栈开发</h4>
+        
+        
+                <p class="summary">为企业或团队提供业务信息化咨询，定制化软件开发等服务</p>
+        
+                <ul>
+                    <li>使用 HTML、CSS、JavaScript 和 React 开发和维护响应式的前端界面，提供优良的用户体验</li>
+                    <li>设计和实现 RESTful API，与后端团队紧密合作，确保数据交互的稳定性和安全性</li>
+                    <li>使用 Node.js、Koa.js 和 Nest.js 等后端框架开发高性能的服务器端应用程序</li>
+                    <li>构建和优化数据库结构，使用 PostgreSQL 进行数据存储和查询</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            成都某科技信息有限公司
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">10/2021</span>
+                            <span class="endDate"> - 06/2022</span>
+                    </h5>
+                </div>
+        
+                <h4>后端开发</h4>
+        
+        
+                <p class="summary">专注于为传统茶叶企业提供一站式茶叶溯源解决方案</p>
+        
+                <ul>
+                    <li>开发和维护高性能的后端系统，以支持公司的产品和服务</li>
+                    <li>设计和优化数据库结构，提高数据查询和存储效率</li>
+                    <li>实施和维护 RESTful API，为前端团队提供稳定的数据交互接口</li>
+                    <li>参与跨部门的技术会议，与团队合作解决技术挑战和改进工作流程</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container project-container">
+            <div class="title">
+                <h3>项目经验</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://zkcross.org" target="_blank">
+                                ZKCross 官网
+                                    <span class="sublink">∙ <a href="https://zkcross.org" target="_blank" class="sublink">https://zkcross.org</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2023</span>
+                            <span class="endDate"> - 09/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    ZKCross 官网是一个旨在介绍和促进零知识证明（Zero-Knowledge Proofs）的在线平台。作为前端开发和项目 Leader，我独立负责了整个官网的开发和项目管理。
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>作为前端开发工程师，负责官网的前端设计和开发。使用HTML、CSS、JavaScript以及React框架，创建了一个现代、响应式的用户界面。</li>
+                    <li>在项目中，我担任了项目 Leader 的角色，负责项目的整体规划、技术选型和功能开发。我从头到尾独立完成了官网的前端部分。</li>
+                    <li>通过优化用户界面、交互设计和页面布局，提高了用户体验，使官网更易于理解和使用。</li>
+                    <li>负责项目的时间表、任务分配和进度追踪，以确保项目按时交付。</li>
+                    <li>成功交付了一个现代、响应式的 ZKCross 官网，提高了用户对零知识证明的理解。</li>
+                    <li>通过性能优化和数据可视化，改进了官网的性能和用户体验，吸引了更多的访问者和社区成员。</li>
+                    <li>项目的按时交付，确保了官网在规定时间内上线，满足了社区的需求。</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://rpc.zkcross.org/docs" target="_blank">
+                                ZKCross Fusion Layer
+                                    <span class="sublink">∙ <a href="https://rpc.zkcross.org/docs" target="_blank" class="sublink">https://rpc.zkcross.org/docs</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">07/2023</span>
+                            <span class="endDate"> - 10/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    ZKC-FusionLayer Gateway 是一个基于 Node.js, ethers.js 的后端网关，用于处理和管理数据流、安全性、身份验证以及与不同服务之间的通信。作为项目 Leader，我负责项目的整体规划、技术架构设计、开发和团队管理。
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Node.js</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>作为项目 Leader，负责项目的整体管理和领导。</li>
+                    <li>确定了项目的技术架构，包括后端服务器和数据库的选择，以满足性能、可扩展性和安全性要求。</li>
+                    <li>在项目的早期，我直接参与了后端的开发，使用 Node.js, ethers.js 和相关技术构建了核心功能，如请求路由、数据处理和身份验证等。</li>
+                    <li>设计和实施了数据管理策略，包括数据存储、检索和更新，以满足应用程序的需求。</li>
+                    <li>通过实施身份验证和授权机制，保护了数据流和通信的安全性，确保敏感信息的保密性。</li>
+                    <li>编写技术文档，以记录项目的架构和工作流程。</li>
+                    <li>推动项目的不断改进，通过团队反馈和用户需求来更新和扩展功能。</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://kaiyuanshe.cn" target="_blank">
+                                开源社官网
+                                    <span class="sublink">∙ <a href="https://kaiyuanshe.cn" target="_blank" class="sublink">https://kaiyuanshe.cn</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">02/2023</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                  <h4>
+                    开源社官网
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Feishu</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>负责官网的前端开发，使用 HTML、CSS、JavaScript 以及前端框架 React、Next.js 创建响应式用户界面。通过采用现代的前端技术，改进了官网的外观和交互体验，提高了用户参与度。</li>
+                    <li>建立了自动化部署流程，包括持续集成和持续部署（CI/CD），以确保网站的高可用性和及时更新。同时，负责监控和故障排除，以降低宕机时间。</li>
+                    <li>优化了官网的性能，通过压缩和缓存静态资源、减少 HTTP 请求和引入图像压缩等措施，提高了网站的加载速度。</li>
+                    <li>与社区互动，收集用户反馈，解决问题和改进用户体验。维护联系方式，提供支持和指导。</li>
+                    <li>及时更新网站的内容和功能，以反映开源社的最新活动和资源。升级依赖库和框架，以确保网站的持续运行。</li>
+                    <li>官网的用户体验得到改进，用户满意度提高，吸引了更多的访问者和社区成员。</li>
+                    <li>运维自动化流程的引入，提高了网站的稳定性和可用性，减少了运维工作量。</li>
+                    <li>安全性措施的实施，保护了用户数据和网站免受恶意攻击。</li>
+                    <li>性能优化的结果，减少了页面加载时间，提高了网站的整体性能。</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://undpsparklab.org/" target="_blank">
+                                UNDP SPARK LAB 官网
+                                    <span class="sublink">∙ <a href="https://undpsparklab.org/" target="_blank" class="sublink">https://undpsparklab.org/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">11/2022</span>
+                            <span class="endDate"> - 04/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    联合国开发计划署可持续发展创新实验室（成都）
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Strapi (CMS)</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>主导并深度参与开发了该实验室的官方网站。负责整个开发生命周期，包括需求分析、架构设计、前端和后端开发、测试和部署等</li>
+                    <li>使用最新的 Web 技术和工具，如 HTML5、CSS3、JavaScript、React、Strapi 和 Next.js，开发了响应式的、用户友好的官网界面</li>
+                    <li>与实验室团队紧密合作，收集和理解他们的需求，将其转化为具体的功能和设计</li>
+                    <li>实现了动态内容管理系统，使实验室团队可以轻松更新和发布新闻、活动和项目信息</li>
+                    <li>确保网站的安全性和性能，采取适当的安全措施和优化策略</li>
+                    <li>与联合国开发计划署总部的技术团队和其他相关利益相关者进行协调，确保官网与整个组织的标准和要求保持一致</li>
+                    <li>成功地为联合国开发计划署可持续发展创新实验室（成都）交付了一个功能齐全、易用且具有良好用户体验的官方网站</li>
+                    <li>网站上线后，获得了积极的用户反馈，并为实验室团队提供了一个展示和推广他们工作的重要平台</li>
+                    <li>通过该官网，实验室团队能够与全球的合作伙伴和利益相关者建立联系，促进了可持续发展领域的合作与交流</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://www.larona.io/" target="_blank">
+                                LaRoNa 区块链官网
+                                    <span class="sublink">∙ <a href="https://www.larona.io/" target="_blank" class="sublink">https://www.larona.io/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">03/2023</span>
+                            <span class="endDate"> - 05/2023</span>
+                    </h5>
+                </div>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Blockchain</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>与设计团队合作，确保官网的视觉风格和用户界面与 LaRoNa 区块链的品牌形象一致</li>
+                    <li>优化官网的性能和用户体验，确保页面加载速度快，并提供友好的导航和交互</li>
+                    <li>通过官网，有效地传达了LaRoNa区块链的核心价值观和业务优势，吸引了潜在客户和合作伙伴的关注</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            金融分期 App
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">04/2023</span>
+                            <span class="endDate"> - 05/2023</span>
+                    </h5>
+                </div>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Taro.js</h6>
+                    <h6 class="skill">Vant UI</h6>
+                    <h6 class="skill">App</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>参与并主导了金融分期的 H5 和 App 项目，负责整个项目的开发和交付</li>
+                    <li>使用 Taro.js 作为开发框架，实现了 H5 和 App 的多端开发，保证了用户在不同平台上的统一体验</li>
+                    <li>负责需求分析和架构设计，与产品经理和设计团队紧密合作，将业务需求转化为具体的功能和设计方案</li>
+                    <li>使用 React 语法和 Taro.js 提供的组件库，开发了响应式的用户界面，保证了在不同设备上的良好展示效果</li>
+                    <li>实现了用户认证、分期申请、还款管理等核心功能，并与后端团队协作，保证数据的准确性和安全性</li>
+                    <li>优化了 H5 和 App 的性能和用户体验，通过使用 Taro.js 提供的编译优化和代码分割功能，提高了页面加载速度和交互流畅性</li>
+                    <li>成功交付了一款具有良好用户体验和功能完备的金融分期 H5 和 App</li>
+                    <li>通过 Taro.js 的多端开发能力，实现了 H5 和 App 的快速迭代和发布，提高了开发效率和用户覆盖率</li>
+                    <li>用户认证和分期申请功能的实现，使用户能够轻松申请和管理分期付款，提升了用户的便利性和满意度</li>
+                    <li>优化的性能和用户体验增强了用户对金融分期服务的信任和忠诚度</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://hackathon.kaiyuanshe.cn/" target="_blank">
+                                开放黑客松
+                                    <span class="sublink">∙ <a href="https://hackathon.kaiyuanshe.cn/" target="_blank" class="sublink">https://hackathon.kaiyuanshe.cn/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                  <h4>
+                    开放黑客马拉松是由开源社发起的一项旨在促进开源文化和创新的活动。该项目为参与者提供了一个合作开发的平台，鼓励他们利用开源技术和创意解决方案来解决社会问题
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">BootStrap</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>参与开放黑客马拉松项目，并担任前端开发者的角色</li>
+                    <li>设计和开发活动组织信息管理页面和活动信息页面</li>
+                    <li>添加代码导入检测规则，确保系统能够准确识别并应用各种检测规则，保障了代码质量和项目的稳定性</li>
+                    <li>参与代码审查和问题解决，保证项目的代码质量和稳定性</li>
+                    <li>贡献代码并参与社区讨论，与其他开发者分享经验和技术见解</li>
+                    <li>通过参与开放黑客马拉松项目，与来自不同背景的开发者合作，获得了开源协作和团队合作的宝贵经验</li>
+                    <li>负责完成部分前端工作，为项目提供了用户友好的界面和良好的交互体验</li>
+                    <li>通过项目的参与，积累了前端开发的实践经验，并加深了对开源文化和社区贡献的理解</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            话棠茶叶溯源平台
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">10/2021</span>
+                            <span class="endDate"> - 06/2022</span>
+                    </h5>
+                </div>
+                  <h4>
+                    话棠茶叶溯源平台是一个旨在提供茶叶产品的溯源和质量监控服务的项目。该平台通过区块链技术和物联网设备，实现了对茶叶生产、加工、运输和销售环节的全程追溯，确保茶叶的品质和安全性。
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">IoT</h6>
+                    <h6 class="skill">Backend</h6>
+                    <h6 class="skill">Spring Boot</h6>
+                    <h6 class="skill">Redis</h6>
+                    <h6 class="skill">Java</h6>
+                    <h6 class="skill">MySQL</h6>
+                    <h6 class="skill">PostgreSQL</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>参与茶叶溯源平台的开发，并担任后端开发 Leader 的角色，负责团队的协调和后端开发工作的领导</li>
+                    <li>确定项目的技术架构和设计，与团队成员合作制定后端开发计划和任务分配</li>
+                    <li>使用 Java、Spring Boot 等相关框架进行后端开发，设计和实现核心功能，如数据存储、数据加密和权限控制等</li>
+                    <li>配合前端团队，设计和实现可靠的API接口，确保前后端的数据交互和协同工作的顺利进行</li>
+                    <li>设计和实施安全策略，确保数据的机密性和完整性，并实现权限管理和访问控制功能</li>
+                    <li>负责性能优化和扩展，通过技术手段，如缓存、负载均衡和数据库优化，提升系统的响应速度和并发能力</li>
+                    <li>带领团队进行代码审查和问题解决，保证项目的代码质量和稳定性</li>
+                    <li>与产品经理和测试团队紧密合作，确保项目按时交付，并满足用户需求和质量标准</li>
+                    <li>成功交付了一个稳定、安全且功能完备的茶叶溯源平台后端系统</li>
+                    <li>通过区块链技术的应用，实现了茶叶生产链条的全程追溯，提升了茶叶产品的口碑和可信度</li>
+                    <li>引入微服务架构，实现了系统的高可用性和可扩展性，适应了业务的不断增长和变化</li>
+                    <li>设计和实施的安全策略保护了用户数据的机密性和完整性，提高了系统的安全性和用户信任度</li>
+                    <li>通过团队协作和技术领导，保证了项目的按时交付和顺利运行</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container education-container">
+            <div class="title">
+                <h3>教育背景</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    南京理工大学
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">09/2020</span>
+                    <span class="endDate"> - 06/2022</span>
+            </h5>
+        </div>
+         
+                <h4>本科 计算机科学与技术</h4>
+        
+              </section>
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    南通职业大学
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">09/2019</span>
+                    <span class="endDate"> - 06/2022</span>
+            </h5>
+        </div>
+         
+                <h4>专科 软件技术</h4>
+        
+              </section>
+        </div>
+        <div class="container volunteer-container">
+            <div class="title">
+                <h3>志愿者</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            开源社
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                <h5>基础设施组成员</h5>
+        
+                <p class="summary">中国最大的开源非政府组织</p>
+        
+                <ul>
+                    <li>参与开发新的开放黑客马拉松网站</li>
+                    <li>COSCon 2022 志愿者</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            开源市集
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">03/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                <h5>共创者</h5>
+        
+                <p class="summary">成都本地去中心化开放协作社区</p>
+        
+            </section>
+        </div>
+        <div class="container awards-container">
+            <div class="title">
+                <h3>奖项</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            全国计算机等级二级 C 语言良好证书
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+                <h5 class="awarder">全国计算机等级协会</h5>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            第十二届蓝桥杯大赛软件类 Java 程序设计大学C组国赛二等奖
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            国家励志奖学金
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            2019 中国森林旅游节南通国际马拉松优秀志愿者
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+        </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>出版物</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            JetBrains Nerd Font for Windows
+                    </h3>
+                    <h5 class="italic pull-right">
+                            07/2021
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+        
+            </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
