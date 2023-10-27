@@ -4,8 +4,9 @@
 	"scripts": {
 		"test": "",
 		"export": "./export.sh",
+		"build": "./export.sh",
 		"start": "",
-		"dev": ""
+		"dev": "http-server out/"
 	},
 	"dependencies": {
 		"jsonresume-theme-latte": "^1.0.2",
