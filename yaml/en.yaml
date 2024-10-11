@@ -25,7 +25,7 @@ work:
   - company: idea2app
     location: Chengdu
     position: full stack development
-    url: https://idea2.app
+    url: https://idea2app.cn
     startDate: 2022-09-24
     summary: Provide business information consulting, customized software development and other services for enterprises or teams
     highlights:
@@ -46,6 +46,73 @@ work:
       - Implement and maintain RESTful API to provide a stable data interaction interface for the front-end team
       - Participate in cross-departmental technical meetings, work with the team to solve technical challenges and improve workflow
 projects:
+  - name: ZKCross official website
+    description: ZKCross is an online platform designed to introduce and promote Zero-Knowledge Proofs (ZKPs). As a front-end developer and project leader, I was responsible for the entire development and project management of the website.
+    highlights:
+      - As a front-end developer, I was responsible for the front-end design and development of the website. Using H  TML, CSS, JavaScript, and the React framework, I created a modern, responsive user interface.
+      - In the project, I took on the role of project leader, responsible for the overall planning, technical selection, and functional development of the project. I completed the front-end part of the website from start to finish independently.
+      - By optimizing the user interface, interaction design, and page layout, I improved the user experience, making the website easier to understand and use.
+      - I was responsible for the project schedule, task allocation, and progress tracking to ensure timely delivery of the project.
+      - Successfully delivered a modern, responsive ZKCross official website, improving user understanding of zero-knowledge proofs.
+      - Through performance optimization and data visualization, I improved the performance and user experience of the website, attracting more visitors and community members.
+      - Timely delivery of the project ensured that the website went online on time, meeting the needs of the community.
+    keywords:
+      - Next.js
+      - React
+      - TypeScript
+    startDate: 2023-09-03
+    endDate: 2023-09-19
+    url: https://zkcross.org
+    roles:
+      - Frontend developer
+      - Project leader
+    entity: ZKCross
+    type: website
+  - name: ZKCross Fusion Layer
+    description: ZKC-FusionLayer Gateway is a backend gateway based on Node.js and ethers.js, designed to handle data streams, security, authentication, and communication with various services. As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.
+    highlights:
+      - As the project leader, I was responsible for the overall management and leadership of the project.
+      - Determined the technical architecture of the project, including the selection of backend servers and databases to meet performance, scalability, and security requirements.
+      - In the early stages of the project, I directly participated in the development of the backend, using Node.js, ethers.js, and related technologies to build core functions such as request routing, data processing, and authentication.
+      - Designed and implemented data management strategies, including data storage, retrieval, and updating, to meet the needs of the application.
+      - By implementing authentication and authorization mechanisms, protected the security of data streams and communications, ensuring the confidentiality of sensitive information.
+      - Wrote technical documentation to record the project's architecture and workflow.
+      - Driven the continuous improvement of the project through team feedback and user needs.
+    keywords:
+      - Node.js
+      - TypeScript
+    startDate: 2023-07-10
+    endDate: 2023-10-30
+    url: https://rpc.zkcross.org/docs
+    roles:
+      - Backend developer
+    entity: ZKCross
+    type: backend server
+  - name: KAIYUANSHE official website
+    description: KAIYUANSHE official website
+    highlights:
+      - As a front-end developer, I was responsible for the front-end design and development of the website. Using HTML, CSS, JavaScript, and the React framework, I created a modern, responsive user interface.
+      - In the project, I took on the role of project leader, responsible for the overall planning, technical selection, and functional development of the project. I completed the front-end part of the website from start to finish independently.
+      - By optimizing the user interface, interaction design, and page layout, I improved the user experience, making the website easier to understand and use.
+      - I was responsible for the project schedule, task allocation, and progress tracking to ensure timely delivery of the project.
+      - Successfully delivered a modern, responsive KAIYUANSHE official website, improving user understanding of open source culture and community contributions.
+      - Through performance optimization and data visualization, I improved the performance and user experience of the website, attracting more visitors and community members.
+      - Timely delivery of the project ensured that the website went online on time, meeting the needs of the community.
+      - The introduction of automation processes improved the stability and availability of the website, reducing operational overhead.
+      - Implementation of security measures protected user data and website from malicious attacks.
+      - Performance optimization resulted in reduced page load times, improving the overall performance of the website.
+    keywords:
+      - Next.js
+      - React
+      - TypeScript
+      - Feishu
+    startDate: 2023-02-01
+    url: https://kaiyuanshe.cn
+    roles:
+      - Frontend developer
+      - Operation and maintenance
+    entity: Kaiyuanshe
+    type: website
   - name: UNDP SPARK LAB official website
     description: UNDP Sustainable Development Innovation Lab (Chengdu)
     highlights:
@@ -223,6 +290,31 @@ awards:
     awarder:
     summary:
 publications:
+  - name: Copy Title Extension
+    publisher: wangrunlin
+    releaseDate: 2024-09-11
+    url: https://chromewebstore.google.com/detail/copy-page-title/cofmmgbikdpfpdecffpknclhhlnbfnlg
+    summary: Copy Title Extension is a Chrome extension that copies the page title
+  - name: 2024 COSCUP Talk - The Development of Digital Nomads in Mainland China
+    publisher: wangrunlin
+    releaseDate: 2024-08-04
+    url: https://coscup.org/2024/zh-TW/session/VSD9GU
+    summary: I shared a talk about the development of digital nomads in mainland China at the 2024 COSCUP conference.
+  - name: Android Copy Link
+    publisher: wangrunlin
+    releaseDate: 2024-04-22
+    url: https://github.com/wangrunlin/android-copy-link
+    summary: Android Copy Link is a stylish progressive web application (PWA) designed to provide a seamless and efficient link copying experience tailored for Android devices.
+  - name: jsonresume-theme-latte
+    publisher: wangrunlin
+    releaseDate: 2023-06-15
+    url: https://github.com/wangrunlin/jsonresume-theme-latte
+    summary: Latte is a JSON Resume theme based on Theme Boilerplate, Caffeine Theme, and Macchiato Theme.
+  - name: open-digger-cli
+    publisher: wangrunlin
+    releaseDate: 2023-07-03
+    url: https://github.com/wangrunlin/open-digger-cli
+    summary: A CLI tool based on [OpenDigger](https://github.com/X-lab2017/open-digger/)
   - name: JetBrains Nerd Font for Windows
     publisher: wangrunlin
     releaseDate: 2021-07-09
@@ -269,6 +361,7 @@ interests:
     keywords:
       - ride
       - basketball
+      - skiing
 meta:
   canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json
   version: v1.0.0

@@ -25,7 +25,7 @@ work:
   - company: idea2app
     location: 成都
     position: 全栈开发
-    url: https://idea2.app
+    url: https://idea2app.cn
     startDate: 2022-09-24
     summary: 为企业或团队提供业务信息化咨询，定制化软件开发等服务
     highlights:
@@ -65,6 +65,7 @@ projects:
     url: https://zkcross.org
     roles:
       - 前端开发
+      - 项目负责人
     entity: ZKCross
     type: website
   - name: ZKCross Fusion Layer
@@ -288,6 +289,31 @@ awards:
     awarder:
     summary:
 publications:
+  - name: Copy Title Extension
+    publisher: wangrunlin
+    releaseDate: 2024-09-11
+    url: https://chromewebstore.google.com/detail/copy-page-title/cofmmgbikdpfpdecffpknclhhlnbfnlg
+    summary: Copy Title Extension 是一个 Chrome 扩展，用于复制网页标题
+  - name: 2024 年 COSCUP 会议演讲 - 数字游民在中国大陆的发展
+    publisher: wangrunlin
+    releaseDate: 2024-08-04
+    url: https://coscup.org/2024/zh-TW/session/VSD9GU
+    summary: 在 2024 年 COSCUP 会议上，我分享了关于数字游民在中国大陆的发展的演讲。
+  - name: Android Copy Link
+    publisher: wangrunlin
+    releaseDate: 2024-04-22
+    url: https://github.com/wangrunlin/android-copy-link
+    summary: Android 复制链接 是一款时尚的渐进式 Web 应用程序 (PWA)，旨在提供专为 Android 设备量身定制的无缝且高效的链接复制体验。
+  - name: jsonresume-theme-latte
+    publisher: wangrunlin
+    releaseDate: 2023-06-15
+    url: https://github.com/wangrunlin/jsonresume-theme-latte
+    summary: Latte 是一个基于 Theme Boilerplate、Caffeine Theme 和 Macchiato Theme 的 JSON Resume 主题
+  - name: open-digger-cli
+    publisher: wangrunlin
+    releaseDate: 2023-07-03
+    url: https://github.com/wangrunlin/open-digger-cli
+    summary: 基于 [OpenDigger](https://github.com/X-lab2017/open-digger/) 的 CLI 工具
   - name: JetBrains Nerd Font for Windows
     publisher: wangrunlin
     releaseDate: 2021-07-09
@@ -334,6 +360,7 @@ interests:
     keywords:
       - 骑行
       - 篮球
+      - 滑雪
 meta:
   canonical: https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json
   version: v1.0.0
