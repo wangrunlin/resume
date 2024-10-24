@@ -34,7 +34,7 @@ work:
       - 设计和实现 RESTful API，与后端团队紧密合作，确保数据交互的稳定性和安全性
       - 使用 Node.js、Koa.js 和 Nest.js 等后端框架开发高性能的服务器端应用程序
       - 构建和优化数据库结构，使用 PostgreSQL 进行数据存储和查询
-  - company: 成都域时科技信息有限公司
+  - company: 成都域时科技信息有限公司（实习）
     location: 成都
     position: 后端开发
     url:
