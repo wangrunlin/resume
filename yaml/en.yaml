@@ -27,6 +27,7 @@ work:
     position: full stack development
     url: https://idea2app.cn
     startDate: 2022-09-24
+    endDate: 2024-10-15
     summary: Provide business information consulting, customized software development and other services for enterprises or teams
     highlights:
       - Develop and maintain a responsive front-end interface using HTML, CSS, JavaScript and React to provide a great user experience
@@ -246,7 +247,7 @@ education:
     area: Computer Science and Technology
     studyType: Undergraduate
     startDate: 2020-09-01
-    endDate: 2022-06-30
+    endDate: 2023-12-30
     score:
     courses: []
   - institution: Nantong Vocational University

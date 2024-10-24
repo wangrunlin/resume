@@ -27,6 +27,7 @@ work:
     position: 全栈开发
     url: https://idea2app.cn
     startDate: 2022-09-24
+    endDate: 2024-10-15
     summary: 为企业或团队提供业务信息化咨询，定制化软件开发等服务
     highlights:
       - 使用 HTML、CSS、JavaScript 和 React 开发和维护响应式的前端界面，提供优良的用户体验
@@ -245,7 +246,7 @@ education:
     area: 计算机科学与技术
     studyType: 本科
     startDate: 2020-09-01
-    endDate: 2022-06-30
+    endDate: 2023-12-30
     score:
     courses: []
   - institution: 南通职业大学
