@@ -2,7 +2,7 @@ $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schem
 chinese: true
 basics:
   name: 王润林
-  label: Web 全栈工程师 （前端）
+  label: Web 全栈工程师
   image:
   email: alin.runlin@gmail.com
   phone: +86 177-7859-5680
@@ -11,7 +11,7 @@ basics:
   location:
     address:
     postalCode:
-    city: 成都
+    city: 北京
     # countryCode: CN
     region: 中国
   profiles:
@@ -47,6 +47,24 @@ work:
       - 实施和维护 RESTful API，为前端团队提供稳定的数据交互接口
       - 参与跨部门的技术会议，与团队合作解决技术挑战和改进工作流程
 projects:
+  - name: Self-Hosting API
+    description: Self-Hosting API 是一个基于 Node.js 和 Koa 的后端服务，旨在为用户提供灵活的 API 访问和管理。作为项目负责人，我负责整体架构设计、开发和维护，以及确保系统的安全性和稳定性。
+    highlights:
+      - 作为项目负责人，领导团队完成系统设计和开发工作。
+      - 设计了 RESTful API，确保其符合行业标准并易于使用。
+      - 编写了详细的 API 文档，帮助开发者理解和使用 API 接口。
+      - 通过持续集成和持续部署（CI/CD）流程，确保代码的高质量和快速迭代。
+      - 根据用户反馈不断优化 API 性能和功能，提升用户体验。
+    keywords:
+      - Node.js
+      - Koa
+    startDate: 2022-08-31
+    url: https://api.alin.run
+    roles:
+      - 后端开发
+      - 项目管理
+    entity: wangrunlin
+    type: backend service
   - name: ZKCross 官网
     description: ZKCross 官网是一个旨在介绍和促进零知识证明（Zero-Knowledge Proofs）的在线平台。作为前端开发和项目 Leader，我独立负责了整个官网的开发和项目管理。
     highlights:

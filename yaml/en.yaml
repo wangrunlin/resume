@@ -2,7 +2,7 @@ $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schem
 chinese: false
 basics:
   name: Runlin Wang
-  label: Web full-stack engineer (front-end)
+  label: Web full-stack engineer
   image:
   email: alin.runlin@gmail.com
   phone: +86 177-7859-5680
@@ -11,7 +11,7 @@ basics:
   location:
     address:
     postalCode:
-    city: Chengdu
+    city: Beijing
     # countryCode: CN
     region: China
   profiles:
@@ -47,6 +47,24 @@ work:
       - Implement and maintain RESTful API to provide a stable data interaction interface for the front-end team
       - Participate in cross-departmental technical meetings, work with the team to solve technical challenges and improve workflow
 projects:
+  - name: Self-Hosting API
+    description: Self-Hosting API is a backend service based on Node.js and Koa, designed to provide users with flexible API access and management. As the project lead, I am responsible for overall architecture design, development, maintenance, and ensuring system security and stability.
+    highlights:
+      - As the project lead, I led the team in completing system design and development work.
+      - Designed a RESTful API to ensure compliance with industry standards and ease of use.
+      - Wrote detailed API documentation to help developers understand and use the API.
+      - Ensured high code quality and rapid iteration through continuous integration and continuous deployment (CI/CD) processes.
+      - Continuously optimized API performance and features based on user feedback to enhance user experience.
+    keywords:
+      - Node.js
+      - Koa
+    startDate: 2022-08-31
+    url: https://api.alin.run
+    roles:
+      - Backend Development
+      - Project Management
+    entity: wangrunlin
+    type: backend service
   - name: ZKCross official website
     description: ZKCross is an online platform designed to introduce and promote Zero-Knowledge Proofs (ZKPs). As a front-end developer and project leader, I was responsible for the entire development and project management of the website.
     highlights:
