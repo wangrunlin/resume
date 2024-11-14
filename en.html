@@ -1,0 +1,1195 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Runlin Wang</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'),
+    url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: 0.3px;
+  color: #39424b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #2895f1;
+}
+
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+p,
+li {
+  font-size: 11px;
+}
+
+blockquote {
+  font-size: 11px;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
+}
+
+em {
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
+}
+
+ul li {
+  padding-left: 10px;
+}
+
+ul.minimal {
+  list-style: none;
+  padding: 0;
+}
+
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
+}
+
+ul.two-column li {
+  padding-left: 0;
+}
+
+@page {
+  size: A4;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817a;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
+}
+
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #56817a;
+}
+
+.summary {
+  margin: 5px 0 5px;
+}
+
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817a;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
+}
+
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
+}
+
+.references-container .fa {
+  font-size: 14px;
+}
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-skill {
+  font-size: 80%;
+}
+
+.skill {
+  margin: 0.15em;
+  padding: 0.15em;
+  background: ghostwhite;
+  border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>Runlin Wang</h1>
+            <h2>Web full-stack engineer</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <div class="container about-container">
+        
+            <div class="title">
+                <h3>Contact</h3>
+                <div class="keyline"></div>
+            </div>
+            <div class="info-tag-container">
+                <i class="fa fa-map-marker"></i>
+            
+                <h6 class="info-text">Beijing China </h6>
+            </div>
+        
+            <div class="info-tag-container">
+                <i class="fa fa-envelope-o"></i>
+            
+                <h6 class="info-text">
+                    <a href="mailto:alin.runlin@gmail.com" target="_blank">
+                        alin.runlin@gmail.com
+                    </a>
+                </h6>
+            </div>
+            <div class="info-tag-container">
+                <i class="fa fa-mobile"></i>
+            
+                <h6 class="info-text">
+                    <a href="tel:+86 177-7859-5680" target="_blank">
+                        +86 177-7859-5680
+                    </a>
+                </h6>
+            </div>
+            <div class="info-tag-container">
+                <i class="fa fa-globe"></i>
+            
+                <h6 class="info-text">
+                    <a href="https://wangrunlin.com" target="_blank">
+                        wangrunlin.com
+                    </a>
+                </h6>
+            </div>
+                         <div class="info-tag-container">
+                             <i class="fa fa-github"></i>
+                         
+                             <h6 class="info-text">
+                                 <a href="https://github.com/wangrunlin" target="_blank">
+                                     wangrunlin
+                                 </a>
+                             </h6>
+                         </div>                 <div class="info-tag-container">
+                             <i class="fa fa-twitter"></i>
+                         
+                             <h6 class="info-text">
+                                 <a href="https://twitter.com/wangrunlin_" target="_blank">
+                                     wangrunlin_
+                                 </a>
+                             </h6>
+                         </div></div>            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>Web Frontend</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">proficient</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">HTML 5+</h6>
+                                    <h6 class="main-skill skill">CSS 3+</h6>
+                                    <h6 class="main-skill skill">ECMAScript 6+</h6>
+                                    <h6 class="main-skill skill">TypeScript</h6>
+                                    <h6 class="main-skill skill">React</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>backend</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">proficient</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Node.js</h6>
+                                    <h6 class="main-skill skill">Koa.js</h6>
+                                    <h6 class="main-skill skill">NestJS</h6>
+                                    <h6 class="main-skill skill">Strapi (CMS)</h6>
+                                    <h6 class="main-skill skill">Java</h6>
+                                    <h6 class="main-skill skill">Spring Boot</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>open source management</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">master</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">GitHub</h6>
+                                    <h6 class="main-skill skill">GitLab</h6>
+                                    <h6 class="main-skill skill">Travis CI</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>system maintenance</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">proficient</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Windows</h6>
+                                    <h6 class="main-skill skill">Linux</h6>
+                                    <h6 class="main-skill skill">MacOS</h6>
+                            </div>
+                    </section>
+            </div>
+        <div class="container languages-container">
+            <div class="title">
+                <h3>Languages</h3>
+                <div class="keyline"></div>
+            </div>
+            <ul class="minimal">
+                <li>
+                    <h6>Chinese <em>(mother tongue)</em></h6>
+                </li>
+                <li>
+                    <h6>English </h6>
+                </li>
+            </ul>
+        </div>
+        <div class="container interests-container">
+            <div class="title">
+                <h3>Interests</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <h4 class="bold">sports</h4>
+                <ul class="minimal">
+                    <li>ride</li>
+                    <li>basketball</li>
+                    <li>skiing</li>
+                </ul>
+            </section>
+        </div>
+      </aside>
+      <div class="right-column">
+        <div class="container summary-container">
+            <div class="title">
+                <h3>Summary</h3>
+                <div class="keyline"></div>
+            </div>
+            <p class="summary">
+                Web/JavaScript full-stack development, open source contributor, technical community co-builder. Keyboard party, likes various efficient CLI tools. Geek fan, agrees with UNIX design philosophy, Vimer. Good at collaboration and communication, team communication and collaboration, The practical foundation of project schedule and time management. A lifelong learner, continuous learning, love to share, broad technical vision, sensitive to new technologies in the industry. With code cleanliness and engineering thinking, expect to be an engineer who creates value, not a programmer who sells labor. 
+            </p>
+        </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>Experience</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://idea2app.cn" target="_blank">
+                                idea2app
+                                    <span class="sublink">∙ <a href="https://idea2app.cn" target="_blank" class="sublink">https://idea2app.cn</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - 10/2024</span>
+                    </h5>
+                </div>
+        
+                <h4>full stack development</h4>
+        
+        
+                <p class="summary">Provide business information consulting, customized software development and other services for enterprises or teams</p>
+        
+                <ul>
+                    <li>Develop and maintain a responsive front-end interface using HTML, CSS, JavaScript and React to provide a great user experience</li>
+                    <li>Design and implement RESTful API, work closely with the back-end team to ensure the stability and security of data interaction</li>
+                    <li>Develop high-performance server-side applications using back-end frameworks such as Node.js, Koa.js, and Nest.js</li>
+                    <li>Build and optimize database structure, use PostgreSQL for data storage and query</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Chengdu Yushi Technology Information Co., Ltd. (internship)
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">10/2021</span>
+                            <span class="endDate"> - 06/2022</span>
+                    </h5>
+                </div>
+        
+                <h4>backend development</h4>
+        
+        
+                <p class="summary">Focus on providing one-stop tea traceability solutions for traditional tea enterprises</p>
+        
+                <ul>
+                    <li>Develop and maintain high-performance back-end systems to support the company&#x27;s products and services</li>
+                    <li>Design and optimize database structure, improve data query and storage efficiency</li>
+                    <li>Implement and maintain RESTful API to provide a stable data interaction interface for the front-end team</li>
+                    <li>Participate in cross-departmental technical meetings, work with the team to solve technical challenges and improve workflow</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container project-container">
+            <div class="title">
+                <h3>Projects</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://password.toolbox-hub.com" target="_blank">
+                                Password Generator
+                                    <span class="sublink">∙ <a href="https://password.toolbox-hub.com" target="_blank" class="sublink">https://password.toolbox-hub.com</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">11/2024</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                  <h4>
+                    Password Generator is a web application that allows users to generate secure passwords, using Next.js, Tailwind CSS, and Cursor + Claude&#x27;s AI capabilities. As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">Tailwind CSS</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Cursor</h6>
+                    <h6 class="skill">Claude</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.</li>
+                    <li>Developed a responsive web interface using Next.js, Tailwind CSS, and Cursor + Claude&#x27;s AI capabilities</li>
+                    <li>Through Cursor + Claude&#x27;s AI capabilities, implemented password generation and management functions.</li>
+                    <li>Through continuous integration and continuous deployment (CI/CD) processes, ensure code quality and rapid iteration.</li>
+                    <li>Continuously optimize website performance and features based on user feedback to enhance user experience.</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://zkcross.org" target="_blank">
+                                ZKCross official website
+                                    <span class="sublink">∙ <a href="https://zkcross.org" target="_blank" class="sublink">https://zkcross.org</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2023</span>
+                            <span class="endDate"> - 09/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    ZKCross is an online platform designed to introduce and promote Zero-Knowledge Proofs (ZKPs). As a front-end developer and project leader, I was responsible for the entire development and project management of the website.
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>As a front-end developer, I was responsible for the front-end design and development of the website. Using H  TML, CSS, JavaScript, and the React framework, I created a modern, responsive user interface.</li>
+                    <li>In the project, I took on the role of project leader, responsible for the overall planning, technical selection, and functional development of the project. I completed the front-end part of the website from start to finish independently.</li>
+                    <li>By optimizing the user interface, interaction design, and page layout, I improved the user experience, making the website easier to understand and use.</li>
+                    <li>I was responsible for the project schedule, task allocation, and progress tracking to ensure timely delivery of the project.</li>
+                    <li>Successfully delivered a modern, responsive ZKCross official website, improving user understanding of zero-knowledge proofs.</li>
+                    <li>Through performance optimization and data visualization, I improved the performance and user experience of the website, attracting more visitors and community members.</li>
+                    <li>Timely delivery of the project ensured that the website went online on time, meeting the needs of the community.</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://rpc.zkcross.org/docs" target="_blank">
+                                ZKCross Fusion Layer
+                                    <span class="sublink">∙ <a href="https://rpc.zkcross.org/docs" target="_blank" class="sublink">https://rpc.zkcross.org/docs</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">07/2023</span>
+                            <span class="endDate"> - 10/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    ZKC-FusionLayer Gateway is a backend gateway based on Node.js and ethers.js, designed to handle data streams, security, authentication, and communication with various services. As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Node.js</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>As the project leader, I was responsible for the overall management and leadership of the project.</li>
+                    <li>Determined the technical architecture of the project, including the selection of backend servers and databases to meet performance, scalability, and security requirements.</li>
+                    <li>In the early stages of the project, I directly participated in the development of the backend, using Node.js, ethers.js, and related technologies to build core functions such as request routing, data processing, and authentication.</li>
+                    <li>Designed and implemented data management strategies, including data storage, retrieval, and updating, to meet the needs of the application.</li>
+                    <li>By implementing authentication and authorization mechanisms, protected the security of data streams and communications, ensuring the confidentiality of sensitive information.</li>
+                    <li>Wrote technical documentation to record the project&#x27;s architecture and workflow.</li>
+                    <li>Driven the continuous improvement of the project through team feedback and user needs.</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://kaiyuanshe.cn" target="_blank">
+                                KAIYUANSHE official website
+                                    <span class="sublink">∙ <a href="https://kaiyuanshe.cn" target="_blank" class="sublink">https://kaiyuanshe.cn</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">02/2023</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                  <h4>
+                    KAIYUANSHE official website
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Feishu</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Responsible for the front-end development of the official website, using HTML, CSS, JavaScript, and front-end frameworks like React and Next.js to create responsive user interfaces. Improved the appearance and interaction experience of the official website by adopting modern front-end technologies, enhancing user engagement.</li>
+                    <li>Established an automated deployment process, including Continuous Integration and Continuous Deployment (CI/CD), to ensure high availability and timely updates of the website. Also responsible for monitoring and troubleshooting to reduce downtime.</li>
+                    <li>Optimized the performance of the official website by compressing and caching static resources, reducing HTTP requests, and implementing image compression, which improved the loading speed of the website.</li>
+                    <li>Interacted with the community to collect user feedback, resolve issues, and improve user experience. Maintained contact information to provide support and guidance.</li>
+                    <li>Timely updated the content and features of the website to reflect the latest activities and resources of the open-source community. Upgraded dependencies and frameworks to ensure the continuous operation of the website.</li>
+                    <li>The user experience of the official website has improved, user satisfaction has increased, attracting more visitors and community members.</li>
+                    <li>The introduction of automated operation and maintenance processes has improved the stability and availability of the website, reducing the workload of operations and maintenance.</li>
+                    <li>Implementation of security measures has protected user data and the website from malicious attacks.</li>
+                    <li>The results of performance optimization have reduced page loading times and improved the overall performance of the website.</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://undpsparklab.org/" target="_blank">
+                                UNDP SPARK LAB official website
+                                    <span class="sublink">∙ <a href="https://undpsparklab.org/" target="_blank" class="sublink">https://undpsparklab.org/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">11/2022</span>
+                            <span class="endDate"> - 04/2023</span>
+                    </h5>
+                </div>
+                  <h4>
+                    UNDP Sustainable Development Innovation Lab (Chengdu)
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Strapi (CMS)</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Led and deeply participated in the development of the official website of the laboratory. Responsible for the entire development life cycle, including requirements analysis, architecture design, front-end and back-end development, testing and deployment, etc.</li>
+                    <li>Developed a responsive, user-friendly official website interface using the latest web technologies and tools such as HTML5, CSS3, JavaScript, React, Strapi, and Next.js</li>
+                    <li>Work closely with the lab team to collect and understand their requirements, translating them into specific functions and designs</li>
+                    <li>Implemented a dynamic content management system that allows lab teams to easily update and publish news, events and project information</li>
+                    <li>Ensuring the security and performance of the website, implementing appropriate security measures and optimization strategies</li>
+                    <li>Coordinate with technical teams at UNDP Headquarters and other relevant stakeholders to ensure website alignment with organizational standards and requirements</li>
+                    <li>Successfully delivered a full-featured, easy-to-use official website with good user experience for UNDP Sustainable Development Innovation Lab (Chengdu)</li>
+                    <li>After the website went live, it received positive user feedback and provided the lab team with an important platform to showcase and promote their work</li>
+                    <li>Through the official website, the laboratory team can establish contacts with global partners and stakeholders, and promote cooperation and exchanges in the field of sustainable development</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://www.larona.io/" target="_blank">
+                                LaRoNa blockchain official website
+                                    <span class="sublink">∙ <a href="https://www.larona.io/" target="_blank" class="sublink">https://www.larona.io/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">03/2023</span>
+                            <span class="endDate"> - 05/2023</span>
+                    </h5>
+                </div>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                    <h6 class="skill">Blockchain</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Work with the design team to ensure the visual style and user interface of the official website is consistent with the brand image of the LaRoNa blockchain</li>
+                    <li>Optimize the performance and user experience of the official website, ensure that the page loads quickly, and provide friendly navigation and interaction</li>
+                    <li>Effectively convey the core values and business advantages of the LaRoNa blockchain through the official website, attracting the attention of potential customers and partners</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Financial Installment App
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">04/2023</span>
+                            <span class="endDate"> - 05/2023</span>
+                    </h5>
+                </div>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Taro.js</h6>
+                    <h6 class="skill">Vant UI</h6>
+                    <h6 class="skill">Apps</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Participated in and led the financial stage H5 and App projects, responsible for the development and delivery of the entire project</li>
+                    <li>Using Taro.js as the development framework, the multi-terminal development of H5 and App is realized, which ensures the unified experience of users on different platforms</li>
+                    <li>Responsible for requirements analysis and architecture design, and work closely with product managers and design teams to translate business requirements into specific functions and design solutions</li>
+                    <li>Using React syntax and the component library provided by Taro.js, a responsive user interface is developed to ensure a good display effect on different devices</li>
+                    <li>Implemented core functions such as user authentication, installment application, and repayment management, and cooperated with the back-end team to ensure data accuracy and security</li>
+                    <li>Optimized the performance and user experience of H5 and App, and improved page loading speed and interaction fluency by using the compilation optimization and code splitting functions provided by Taro.js</li>
+                    <li>Successfully delivered a financial installment H5 and App with good user experience and complete functions</li>
+                    <li>Through the multi-terminal development capability of Taro.js, the rapid iteration and release of H5 and App are realized, which improves the development efficiency and user coverage</li>
+                    <li>The realization of user authentication and installment application functions enables users to easily apply for and manage installment payments, improving user convenience and satisfaction</li>
+                    <li>Optimized performance and user experience enhance users&#x27; trust and loyalty to financial installment services</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://hackathon.kaiyuanshe.cn/" target="_blank">
+                                Open Hackathon
+                                    <span class="sublink">∙ <a href="https://hackathon.kaiyuanshe.cn/" target="_blank" class="sublink">https://hackathon.kaiyuanshe.cn/</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                  <h4>
+                    The Open Hackathon is an event initiated by Kaiyuanshe to promote open source culture and innovation. The project provides participants with a platform for collaborative development, encouraging them to leverage open source technologies and creative solutions to solve social problems
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">Next.js</h6>
+                    <h6 class="skill">Boot Strap</h6>
+                    <h6 class="skill">React</h6>
+                    <h6 class="skill">TypeScript</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Participate in open hackathon projects and take on the role of front-end developer</li>
+                    <li>Design and develop event organization information management page and event information page</li>
+                    <li>Add code import detection rules to ensure that the system can accurately identify and apply various detection rules, ensuring code quality and project stability</li>
+                    <li>Participate in code review and problem solving to ensure the code quality and stability of the project</li>
+                    <li>Contribute code and participate in community discussions, sharing experiences and technical insights with other developers</li>
+                    <li>Gained valuable experience in open source collaboration and teamwork by participating in open hackathon projects and working with developers from different backgrounds</li>
+                    <li>Responsible for completing part of the front-end work, providing a user-friendly interface and a good interactive experience for the project</li>
+                    <li>Accumulated practical experience in front-end development through project participation, and deepened understanding of open source culture and community contributions</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Huatang tea traceability platform
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">10/2021</span>
+                            <span class="endDate"> - 06/2022</span>
+                    </h5>
+                </div>
+                  <h4>
+                    The Huatang tea traceability platform is a project aimed at providing traceability and quality monitoring services for tea products. Through blockchain technology and Internet of Things equipment, the platform realizes the full traceability of tea production, processing, transportation and sales, ensuring the quality and safety of tea.
+                  </h4>
+        
+        
+                <div class="flex-container">
+                    <h6 class="skill">IoT</h6>
+                    <h6 class="skill">Backend</h6>
+                    <h6 class="skill">Spring Boot</h6>
+                    <h6 class="skill">Redis</h6>
+                    <h6 class="skill">Java</h6>
+                    <h6 class="skill">MySQL</h6>
+                    <h6 class="skill">PostgreSQL</h6>
+                </div>
+        
+        
+                <ul>
+                    <li>Participate in the development of the tea traceability platform, and act as the leader of the back-end development, responsible for the coordination of the team and the leadership of the back-end development</li>
+                    <li>Determine the technical architecture and design of the project, and work with team members to formulate back-end development plans and task assignments</li>
+                    <li>Use Java, Spring Boot and other related frameworks for back-end development, design and implement core functions, such as data storage, data encryption and permission control, etc.</li>
+                    <li>Cooperate with the front-end team to design and implement a reliable API interface to ensure the smooth progress of front-end and back-end data interaction and collaborative work</li>
+                    <li>Design and implement security policies to ensure data confidentiality and integrity, and implement authority management and access control functions</li>
+                    <li>Responsible for performance optimization and expansion, through technical means, such as caching, load balancing and database optimization, to improve the response speed and concurrency of the system</li>
+                    <li>Lead the team to conduct code review and problem solving to ensure the code quality and stability of the project</li>
+                    <li>Work closely with product managers and testing teams to ensure projects are delivered on time and meet user requirements and quality standards</li>
+                    <li>Successfully delivered a stable, safe and fully functional tea traceability platform back-end system</li>
+                    <li>Through the application of blockchain technology, the entire traceability of the tea production chain has been realized, which has improved the reputation and credibility of tea products</li>
+                    <li>Introduce microservice architecture to achieve high availability and scalability of the system, adapting to the continuous growth and changes of the business</li>
+                    <li>The security policy designed and implemented protects the confidentiality and integrity of user data, improving system security and user trust</li>
+                    <li>Through teamwork and technical leadership, the project was delivered on time and ran smoothly</li>
+                </ul>
+            </section>
+        </div>
+        <div class="container education-container">
+            <div class="title">
+                <h3>Education</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    Nanjing University of Science and Technology
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">09/2020</span>
+                    <span class="endDate"> - 12/2023</span>
+            </h5>
+        </div>
+         
+                <h4>Undergraduate Computer Science and Technology</h4>
+        
+              </section>
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    Nantong Vocational University
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">09/2019</span>
+                    <span class="endDate"> - 06/2022</span>
+            </h5>
+        </div>
+         
+                <h4>Specialist software technology</h4>
+        
+              </section>
+        </div>
+        <div class="container volunteer-container">
+            <div class="title">
+                <h3>Volunteer</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Kaiyuanshe
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">09/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                <h5>infrastructure group member</h5>
+        
+                <p class="summary">The largest open source NGO in China</p>
+        
+                <ul>
+                    <li>Participate in the development of the new Open Hackathon website</li>
+                    <li>COSCon 2022 Volunteer</li>
+                </ul>
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            open source market
+                    </h3>
+                    <h5 class="italic pull-right">
+                            <span class="startDate">03/2022</span>
+                            <span class="endDate"> - Present</span>
+                    </h5>
+                </div>
+                <h5>co-creator</h5>
+        
+                <p class="summary">Chengdu local decentralized open collaborative community</p>
+        
+            </section>
+        </div>
+        <div class="container awards-container">
+            <div class="title">
+                <h3>Awards</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            National Computer Level Level 2 C Language Good Certificate
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+                <h5 class="awarder">National Association for Computing Grades</h5>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            The 12th Blue Bridge Cup Competition Software Category Java Programming University Group C National Competition Second Prize
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            National Encouragement Scholarship
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            2019 China Forest Tourism Festival Nantong International Marathon Excellent Volunteer
+                    </h3>
+                    <h5 class="italic pull-right">
+                    </h5>
+                </div>
+        
+        
+            </section>
+        </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>Publications</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://chromewebstore.google.com/detail/copy-page-title/cofmmgbikdpfpdecffpknclhhlnbfnlg" target="_blank">
+                                Copy Title Extension
+                                    <span class="sublink">∙ <a href="https://chromewebstore.google.com/detail/copy-page-title/cofmmgbikdpfpdecffpknclhhlnbfnlg" target="_blank" class="sublink">https://chromewebstore.google.com/detail/copy-page-title/cofmmgbikdpfpdecffpknclhhlnbfnlg</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            09/2024
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+                <p class="summary">Copy Title Extension is a Chrome extension that copies the page title</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://coscup.org/2024/zh-TW/session/VSD9GU" target="_blank">
+                                2024 COSCUP Talk - The Development of Digital Nomads in Mainland China
+                                    <span class="sublink">∙ <a href="https://coscup.org/2024/zh-TW/session/VSD9GU" target="_blank" class="sublink">https://coscup.org/2024/zh-TW/session/VSD9GU</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            08/2024
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+                <p class="summary">I shared a talk about the development of digital nomads in mainland China at the 2024 COSCUP conference.</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://github.com/wangrunlin/android-copy-link" target="_blank">
+                                Android Copy Link
+                                    <span class="sublink">∙ <a href="https://github.com/wangrunlin/android-copy-link" target="_blank" class="sublink">https://github.com/wangrunlin/android-copy-link</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            04/2024
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+                <p class="summary">Android Copy Link is a stylish progressive web application (PWA) designed to provide a seamless and efficient link copying experience tailored for Android devices.</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://github.com/wangrunlin/jsonresume-theme-latte" target="_blank">
+                                jsonresume-theme-latte
+                                    <span class="sublink">∙ <a href="https://github.com/wangrunlin/jsonresume-theme-latte" target="_blank" class="sublink">https://github.com/wangrunlin/jsonresume-theme-latte</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            06/2023
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+                <p class="summary">Latte is a JSON Resume theme based on Theme Boilerplate, Caffeine Theme, and Macchiato Theme.</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://github.com/wangrunlin/open-digger-cli" target="_blank">
+                                open-digger-cli
+                                    <span class="sublink">∙ <a href="https://github.com/wangrunlin/open-digger-cli" target="_blank" class="sublink">https://github.com/wangrunlin/open-digger-cli</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            07/2023
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+                <p class="summary">A CLI tool based on [OpenDigger](https://github.com/X-lab2017/open-digger/)</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://github.com/wangrunlin/nerd-font-JetBrains-windows" target="_blank">
+                                JetBrains Nerd Font for Windows
+                                    <span class="sublink">∙ <a href="https://github.com/wangrunlin/nerd-font-JetBrains-windows" target="_blank" class="sublink">https://github.com/wangrunlin/nerd-font-JetBrains-windows</a></span>
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            07/2021
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">wangrunlin</h5>
+        
+        
+            </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
