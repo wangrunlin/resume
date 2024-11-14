@@ -47,24 +47,45 @@ work:
       - Implement and maintain RESTful API to provide a stable data interaction interface for the front-end team
       - Participate in cross-departmental technical meetings, work with the team to solve technical challenges and improve workflow
 projects:
-  - name: Self-Hosting API
-    description: Self-Hosting API is a backend service based on Node.js and Koa, designed to provide users with flexible API access and management. As the project lead, I am responsible for overall architecture design, development, maintenance, and ensuring system security and stability.
+  - name: Password Generator
+    description: Password Generator is a web application that allows users to generate secure passwords, using Next.js, Tailwind CSS, and Cursor + Claude's AI capabilities. As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.
     highlights:
-      - As the project lead, I led the team in completing system design and development work.
-      - Designed a RESTful API to ensure compliance with industry standards and ease of use.
-      - Wrote detailed API documentation to help developers understand and use the API.
-      - Ensured high code quality and rapid iteration through continuous integration and continuous deployment (CI/CD) processes.
-      - Continuously optimized API performance and features based on user feedback to enhance user experience.
+      - As the project leader, I was responsible for the overall planning, technical architecture design, development, and team management.
+      - Developed a responsive web interface using Next.js, Tailwind CSS, and Cursor + Claude's AI capabilities
+      - Through Cursor + Claude's AI capabilities, implemented password generation and management functions.
+      - Through continuous integration and continuous deployment (CI/CD) processes, ensure code quality and rapid iteration.
+      - Continuously optimize website performance and features based on user feedback to enhance user experience.
     keywords:
-      - Node.js
-      - Koa
-    startDate: 2022-08-31
-    url: https://api.alin.run
+      - Next.js
+      - Tailwind CSS
+      - TypeScript
+      - Cursor
+      - Claude
+    startDate: 2024-11-02
+    url: https://password.toolbox-hub.com
     roles:
-      - Backend Development
-      - Project Management
+      - Project leader
+      - Developer
     entity: wangrunlin
-    type: backend service
+    type: website
+  # - name: Self-Hosting API
+  #   description: Self-Hosting API is a backend service based on Node.js and Koa, designed to provide users with flexible API access and management. As the project lead, I am responsible for overall architecture design, development, maintenance, and ensuring system security and stability.
+  #   highlights:
+  #     - As the project lead, I led the team in completing system design and development work.
+  #     - Designed a RESTful API to ensure compliance with industry standards and ease of use.
+  #     - Wrote detailed API documentation to help developers understand and use the API.
+  #     - Ensured high code quality and rapid iteration through continuous integration and continuous deployment (CI/CD) processes.
+  #     - Continuously optimized API performance and features based on user feedback to enhance user experience.
+  #   keywords:
+  #     - Node.js
+  #     - Koa
+  #   startDate: 2022-08-31
+  #   url: https://api.alin.run
+  #   roles:
+  #     - Backend Development
+  #     - Project Management
+  #   entity: wangrunlin
+  #   type: backend service
   - name: ZKCross official website
     description: ZKCross is an online platform designed to introduce and promote Zero-Knowledge Proofs (ZKPs). As a front-end developer and project leader, I was responsible for the entire development and project management of the website.
     highlights:
@@ -110,16 +131,15 @@ projects:
   - name: KAIYUANSHE official website
     description: KAIYUANSHE official website
     highlights:
-      - As a front-end developer, I was responsible for the front-end design and development of the website. Using HTML, CSS, JavaScript, and the React framework, I created a modern, responsive user interface.
-      - In the project, I took on the role of project leader, responsible for the overall planning, technical selection, and functional development of the project. I completed the front-end part of the website from start to finish independently.
-      - By optimizing the user interface, interaction design, and page layout, I improved the user experience, making the website easier to understand and use.
-      - I was responsible for the project schedule, task allocation, and progress tracking to ensure timely delivery of the project.
-      - Successfully delivered a modern, responsive KAIYUANSHE official website, improving user understanding of open source culture and community contributions.
-      - Through performance optimization and data visualization, I improved the performance and user experience of the website, attracting more visitors and community members.
-      - Timely delivery of the project ensured that the website went online on time, meeting the needs of the community.
-      - The introduction of automation processes improved the stability and availability of the website, reducing operational overhead.
-      - Implementation of security measures protected user data and website from malicious attacks.
-      - Performance optimization resulted in reduced page load times, improving the overall performance of the website.
+      - Responsible for the front-end development of the official website, using HTML, CSS, JavaScript, and front-end frameworks like React and Next.js to create responsive user interfaces. Improved the appearance and interaction experience of the official website by adopting modern front-end technologies, enhancing user engagement.
+      - Established an automated deployment process, including Continuous Integration and Continuous Deployment (CI/CD), to ensure high availability and timely updates of the website. Also responsible for monitoring and troubleshooting to reduce downtime.
+      - Optimized the performance of the official website by compressing and caching static resources, reducing HTTP requests, and implementing image compression, which improved the loading speed of the website.
+      - Interacted with the community to collect user feedback, resolve issues, and improve user experience. Maintained contact information to provide support and guidance.
+      - Timely updated the content and features of the website to reflect the latest activities and resources of the open-source community. Upgraded dependencies and frameworks to ensure the continuous operation of the website.
+      - The user experience of the official website has improved, user satisfaction has increased, attracting more visitors and community members.
+      - The introduction of automated operation and maintenance processes has improved the stability and availability of the website, reducing the workload of operations and maintenance.
+      - Implementation of security measures has protected user data and the website from malicious attacks.
+      - The results of performance optimization have reduced page loading times and improved the overall performance of the website.
     keywords:
       - Next.js
       - React
