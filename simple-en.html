@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Leo Wang</title>
+
+	<style>
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+
+em {
+    color: #999;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
+.sectionBlock {
+    display: flex;
+    width: 100%;
+}
+
+.sectionName {
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    float: right;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary {
+    margin-top: 6px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    body {
+        background: #FFFFFF;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    a {
+        color: black;
+    }
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		<div id='nameBlock' class='largeFont'>
+			<span class='name'>
+				Leo Wang,
+			</span>
+			<span class='label'>Full-Stack Engineer</span>
+		</div>
+		<div id='basicsBlock' class='smallFont'>
+			<div class='contactBlock'>
+				<span class='email'>alin.runlin@gmail.com</span>
+				<span class='divider'>|</span>
+				<span class='address'>
+					Beijing, CN
+				</span>
+			</div>
+			<div id='profilesBlock'>
+				<span class='url'>
+					<b>GitHub:</b> <a href='https://github.com/wangrunlin'>https://github.com/wangrunlin</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<div class='sectionLine'></div>
+		<div id='summaryBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SUMMARY</span>
+			</div>
+			<div class='sectionContent'>
+				<span>A highly motivated and versatile full-stack engineer with extensive experience in independent project development. Proficient in both front-end and back-end technologies, ideally suited for fast-paced startup environments. Driven to become a technical expert, continuously exploring cutting-edge technologies to create greater value for the team.</span>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='education' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EDUCATION</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='educationBlock'>
+					<span class='title'>
+						Nanjing University of Science and Technology
+					</span>
+					<span class='date'>
+						2020-09 &mdash; 2023-06
+					</span>
+					<div class=''>
+						Bachelor  - Computer Science and Technology
+					</div>
+				
+				</div>
+				<div class='separator'></div>
+				<div class='educationBlock'>
+					<span class='title'>
+						Nantong Vocational University
+					</span>
+					<span class='date'>
+						2019-09 &mdash; 2022-06
+					</span>
+					<div class=''>
+						Associate Degree  - Software Technology
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='skills' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SKILLS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='skillBlock'>
+					<span class='title'>Front-End <em>(Intermediate)</em>:</span>
+					<span>JavaScript</span>, 
+					<span>TypeScript</span>, 
+					<span>React</span>, 
+					<span>Next.js</span>, 
+					<span>HTML/CSS</span>, 
+					<span>Astro</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Back-End <em>(Intermediate)</em>:</span>
+					<span>Node.js</span>, 
+					<span>Java</span>, 
+					<span>Express</span>, 
+					<span>Spring Boot</span>, 
+					<span>MySQL</span>, 
+					<span>PostgreSQL</span>, 
+					<span>RESTful</span>, 
+					<span>Docker</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Other <em>(Intermediate)</em>:</span>
+					<span>Git</span>, 
+					<span>Linux</span>, 
+					<span>macOS</span>, 
+					<span>Unit Testing</span>, 
+					<span>Agile Development</span>, 
+					<span>SEO</span>, 
+					<span>Marketing</span>
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='workBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EXPERIENCE</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>idea2app</span>
+						 | <span class="position">Web Full-Stack Engineer</span>
+						<span class='date'>
+							2022-09 &mdash; 2024-11
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="summary">
+						<p>Provided business information consulting and customized software development services for enterprises and teams.</p>
+					</div>
+					<ul class='highlights'>
+						<li>Developed and maintained responsive front-end interfaces using HTML, CSS, JavaScript, and React to deliver excellent user experiences.</li>
+						<li>Designed and implemented RESTful APIs, collaborating closely with back-end teams to ensure stable and secure data interaction.</li>
+						<li>Developed high-performance server-side applications using back-end frameworks such as Node.js, Koa.js, and Nest.js.</li>
+						<li>Built and optimized database structures, using PostgreSQL for data storage and querying.</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Chengdu XX Technology Information Co., Ltd. (Internship)</span>
+						 | <span class="position">Back-End Engineer</span>
+						<span class='date'>
+							2021-09 &mdash; 2022-06
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="summary">
+						<p>Focused on providing one-stop tea traceability solutions for traditional tea companies.</p>
+					</div>
+					<ul class='highlights'>
+						<li>Developed and maintained high-performance back-end systems to support the company&#x27;s products and services.</li>
+						<li>Designed and optimized database structures to improve data query and storage efficiency.</li>
+						<li>Implemented and maintained RESTful APIs to provide stable data interaction interfaces for front-end teams.</li>
+						<li>Participated in cross-departmental technical meetings, collaborating with teams to address technical challenges and improve workflows.</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='projectsBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>PROJECTS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							Password Toolbox
+						</span>
+						
+						
+					</div>
+					<div><a href='https://password.toolbox-hub.com'>https://password.toolbox-hub.com</a></div>
+					<div class="description">
+						<p>An online password management tool developed to learn Cursor AI programming and SEO techniques. Integrates password generation, storage, and management functions, and ultimately generates advertising revenue through Adsense.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							seo-nextjs-starter
+						</span>
+						
+						
+					</div>
+					<div><a href='https://github.com/wangrunlin/seo-nextjs-starter'>https://github.com/wangrunlin/seo-nextjs-starter</a></div>
+					<div class="description">
+						<p>An SEO starter template based on Next.js, designed to organize and practice SEO-related technologies, providing a foundation for quickly building SEO-friendly websites.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							android-copy-link
+						</span>
+						
+						
+					</div>
+					<div><a href='https://github.com/wangrunlin/android-copy-link'>https://github.com/wangrunlin/android-copy-link</a></div>
+					<div class="description">
+						<p>An Android tool designed to address the lack of a copy link button in system sharing on some Xiaomi phones, enhancing user sharing experience.</p>
+					</div>
+					<div class='separator'></div>
+				</div>
+				<div class="projectBlock">
+					<div class='blockHeader'>
+						<span class='title'>
+							copy-title-extension
+						</span>
+						
+						
+					</div>
+					<div><a href='https://github.com/wangrunlin/copy-title-extension'>https://github.com/wangrunlin/copy-title-extension</a></div>
+					<div class="description">
+						<p>A browser extension that facilitates quickly copying page titles, currently available in the Chrome Web Store.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
