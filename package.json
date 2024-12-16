@@ -1,16 +1,17 @@
 {
-	"name": "resume",
-	"private": true,
-	"scripts": {
-		"test": "",
-		"export": "./export.sh",
-		"build": "./export.sh",
-		"start": "",
-		"dev": "http-server out/"
-	},
-	"dependencies": {
-		"jsonresume-theme-latte": "^1.0.3",
-		"resume-cli": "^3.1.2",
-		"yamljs": "^0.3.0"
-	}
+  "name": "resume",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "export": "./export.sh",
+    "build": "./export.sh",
+    "start": "",
+    "dev": "http-server out/"
+  },
+  "dependencies": {
+    "jsonresume-theme-latte": "^1.0.3",
+    "jsonresume-theme-onepage-plus": "^1.0.1",
+    "resume-cli": "^3.1.2",
+    "yamljs": "^0.3.0"
+  }
 }

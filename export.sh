@@ -13,7 +13,7 @@ yaml2json --save yaml
 
 for name in `ls yaml/*.json`
 do
-  resume export ${name%.json}.html --resume $name --theme latte
+  resume export ${name%.json}.html --resume $name --theme onepage-plus
 done
 
 mv yaml/*.html out/

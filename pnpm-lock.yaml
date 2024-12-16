@@ -11,6 +11,9 @@ importers:
       jsonresume-theme-latte:
         specifier: ^1.0.3
         version: 1.0.3
+      jsonresume-theme-onepage-plus:
+        specifier: ^1.0.1
+        version: 1.0.1
       resume-cli:
         specifier: ^3.1.2
         version: 3.1.2
@@ -127,6 +130,10 @@ packages:
     resolution: {integrity: sha512-GrTZLRpmp6wIC2ztrWW9MjjTgSKccffgFagbNDOX95/dcjEcYZibYTeaOntySQLcdw1ztBoFkviiUvTMbb9MYg==}
     engines: {node: '>=0.10.0'}
 
+  amdefine@1.0.1:
+    resolution: {integrity: sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg==}
+    engines: {node: '>=0.4.2'}
+
   ansi-regex@3.0.1:
     resolution: {integrity: sha512-+O9Jct8wf++lXxxFc4hc8LsjaSq0HFzzL7cVsw8pRDIPdjKD2mT4ytDZlLuSBZ4cLKZFXIrMGO7DbQCtMJJMKw==}
     engines: {node: '>=4'}
@@ -206,6 +213,9 @@ packages:
   async-each-series@0.1.1:
     resolution: {integrity: sha512-p4jj6Fws4Iy2m0iCmI2am2ZNZCgbdgE+P8F/8csmn2vx7ixXrO2zGcuNsD46X5uZSVecmkEy/M06X2vG8KD6dQ==}
     engines: {node: '>=0.8.0'}
+
+  async@0.2.10:
+    resolution: {integrity: sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==}
 
   async@2.6.4:
     resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
@@ -788,6 +798,11 @@ packages:
     resolution: {integrity: sha512-+Kgx2Hv9dng/feBTvfd/inVakqcKh6q4+rOh4bTdHSgsNBEaeZk1BEqNchSSNQZvITSYIwhs8K2fAY/6byiSkg==}
     engines: {node: '>= 0.12'}
 
+  handlebars@2.0.0:
+    resolution: {integrity: sha512-OdfkaA0M8qGD5EJBkMw3TpguSWl6lz94jdyVmYs5e4TpwepZJ35Y5XlchsIwcN7NP/yzNa3MJYd/dRTO7Nf/fg==}
+    engines: {node: '>=0.4.7'}
+    hasBin: true
+
   handlebars@4.7.7:
     resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
     engines: {node: '>=0.4.7'}
@@ -1067,6 +1082,9 @@ packages:
   jsonresume-theme-latte@1.0.3:
     resolution: {integrity: sha512-QqFLtvnRQGTLfQJovyRBoOU5CXDQqxy8BjMjafsHnlBJrOK7n5EqEDKOQeBuA1CCh+UJ5ApTn28jJeaUEsQg6Q==}
 
+  jsonresume-theme-onepage-plus@1.0.1:
+    resolution: {integrity: sha512-wiDJ6CjsKSi7ZYHXH7Ume4EDcnmSyLhIVMQO3PYKbpQCaLZQkM2E2gj8ViHoFrWgbRfyBPvxIN+95Ow+bqnVrw==}
+
   jsonresume-themeutils@1.4.3:
     resolution: {integrity: sha512-Nor8HmHHe3gkyba76A2p1pOom9iaszI0eqZk5/EbvmEV6UxYkHfoeGp+HbVYFbRV+qQucf9GBeteN1VTPCqQZg==}
 
@@ -1296,6 +1314,9 @@ packages:
   opn@5.3.0:
     resolution: {integrity: sha512-bYJHo/LOmoTd+pfiYhfZDnf9zekVJrY+cnS2a5F2x+w5ppvTqObojTP7WiFG+kVZs9Inw+qQ/lw7TroWwhdd2g==}
     engines: {node: '>=4'}
+
+  optimist@0.3.7:
+    resolution: {integrity: sha512-TCx0dXQzVtSCg2OgY/bO9hjM9cV4XYx09TVK+s3+FhkjT6LovsLe+pPMzpWf+6yXK/hUizs2gUoTw3jHM0VaTQ==}
 
   p-limit@2.3.0:
     resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
@@ -1653,6 +1674,10 @@ packages:
     resolution: {integrity: sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==}
     deprecated: See https://github.com/lydell/source-map-url#deprecated
 
+  source-map@0.1.43:
+    resolution: {integrity: sha512-VtCvB9SIQhk3aF6h+N85EaqIaBFIAfZ9Cu+NJHHVvc8BbEcnvDcFw6sqQ2dQrT6SlOrZq3tIvyD9+EGq/lJryQ==}
+    engines: {node: '>=0.8.0'}
+
   source-map@0.5.7:
     resolution: {integrity: sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==}
     engines: {node: '>=0.10.0'}
@@ -1804,6 +1829,11 @@ packages:
 
   uc.micro@1.0.6:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
+
+  uglify-js@2.3.6:
+    resolution: {integrity: sha512-T2LWWydxf5+Btpb0S/Gg/yKFmYjnX9jtQ4mdN9YRq73BhN21EhU0Dvw3wYDLqd3TooGUJlCKf3Gfyjjy/RTcWA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
 
   uglify-js@2.8.29:
     resolution: {integrity: sha512-qLq/4y2pjcU3vhlhseXGGJ7VbFO4pBANu0kwl8VCa9KEI0V8VfZIx2Fy3w01iSTA/pGwKZSmu/+I4etLNDdt5w==}
@@ -2138,6 +2168,9 @@ snapshots:
       longest: 1.0.1
       repeat-string: 1.6.1
 
+  amdefine@1.0.1:
+    optional: true
+
   ansi-regex@3.0.1: {}
 
   ansi-regex@4.1.1: {}
@@ -2192,6 +2225,9 @@ snapshots:
   assign-symbols@1.0.0: {}
 
   async-each-series@0.1.1: {}
+
+  async@0.2.10:
+    optional: true
 
   async@2.6.4:
     dependencies:
@@ -2872,6 +2908,12 @@ snapshots:
       object-assign: 4.1.1
       require-glob: 3.2.0
 
+  handlebars@2.0.0:
+    dependencies:
+      optimist: 0.3.7
+    optionalDependencies:
+      uglify-js: 2.3.6
+
   handlebars@4.7.7:
     dependencies:
       minimist: 1.2.8
@@ -3187,6 +3229,10 @@ snapshots:
       moment: 2.30.1
       yamljs: 0.3.0
 
+  jsonresume-theme-onepage-plus@1.0.1:
+    dependencies:
+      handlebars: 2.0.0
+
   jsonresume-themeutils@1.4.3:
     dependencies:
       gravatar: 1.8.2
@@ -3411,6 +3457,10 @@ snapshots:
   opn@5.3.0:
     dependencies:
       is-wsl: 1.1.0
+
+  optimist@0.3.7:
+    dependencies:
+      wordwrap: 0.0.2
 
   p-limit@2.3.0:
     dependencies:
@@ -3892,6 +3942,11 @@ snapshots:
 
   source-map-url@0.4.1: {}
 
+  source-map@0.1.43:
+    dependencies:
+      amdefine: 1.0.1
+    optional: true
+
   source-map@0.5.7: {}
 
   source-map@0.6.1: {}
@@ -4058,6 +4113,13 @@ snapshots:
   ua-parser-js@1.0.35: {}
 
   uc.micro@1.0.6: {}
+
+  uglify-js@2.3.6:
+    dependencies:
+      async: 0.2.10
+      optimist: 0.3.7
+      source-map: 0.1.43
+    optional: true
 
   uglify-js@2.8.29:
     dependencies:
