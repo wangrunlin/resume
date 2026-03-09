@@ -1,0 +1,114 @@
+basics:
+  name: "王润林"
+  label: "后端开发工程师 / 全栈工程师"
+  email: "alin.runlin@gmail.com"
+  phone: "+86 17778595680"
+  url: "https://github.com/wangrunlin"
+  summary: "具备5年软件开发经验，3年B端系统开发经验，有独立负责完整业务模块的经验。精通Java/Node.js后端开发，熟悉MySQL数据库设计与优化，具备RESTful API开发与系统集成经验。有库存管理、供应链追溯相关项目经验，适应远程协作，具备优秀的自驱力和跨时区沟通能力。"
+  location:
+    city: "远程"
+    countryCode: "CN"
+  profiles:
+    - network: "GitHub"
+      username: "wangrunlin"
+      url: "https://github.com/wangrunlin"
+
+work:
+  - name: "独立开发者 / Indie Hacker"
+    position: "全栈工程师"
+    startDate: "2024-11"
+    endDate: "至今"
+    summary: "独立运营AI SaaS产品，负责产品从0到1的全流程开发，服务全球用户。"
+    highlights:
+      - "使用Next.js + Node.js独立开发并运营AIVideoGenerator.Best，累计服务500+用户，实现首笔海外收入"
+      - "设计并实现支付系统（Stripe集成）、用户权限管理、异步任务队列等核心模块"
+      - "构建可扩展的后端架构，支持第三方API集成（AI图像/视频生成服务）"
+      - "优化数据库查询性能，将关键接口响应时间从800ms降低至150ms"
+
+  - name: "idea2app"
+    position: "Web 全栈开发工程师"
+    startDate: "2022-09"
+    endDate: "2024-11"
+    summary: "为中小企业提供业务信息化咨询与定制化软件开发服务，主导多个B端系统从需求分析到上线的全流程。"
+    highlights:
+      - "使用React + Node.js/Koa.js开发企业级管理系统，服务10+企业客户，系统稳定运行零重大事故"
+      - "设计RESTful API规范，与第三方物流、支付平台完成系统对接，日均处理订单数据1000+条"
+      - "负责PostgreSQL数据库架构设计与优化，编写复杂查询与存储过程，提升报表生成效率40%"
+      - "搭建Docker容器化部署流程，实现CI/CD自动化，部署时间从30分钟缩短至5分钟"
+
+  - name: "成都某科技信息有限公司"
+    position: "后端开发工程师"
+    startDate: "2021-09"
+    endDate: "2022-06"
+    summary: "参与茶叶溯源SaaS平台开发，负责核心数据模块与供应链追溯功能，具备库存管理与物流相关经验。"
+    highlights:
+      - "使用Java Spring Boot开发商品溯源API，支持百万级数据量的高效查询与追溯"
+      - "设计并实现库存管理模块，实现批次追踪、库存预警、出入库记录等WMS核心功能"
+      - "参与供应链数据流转设计，实现从原料采购到成品出库的全链路追踪"
+      - "编写技术文档与API文档，协助前端团队完成系统集成，确保项目按期交付"
+
+education:
+  - institution: "南京理工大学"
+    area: "计算机科学与技术"
+    studyType: "本科"
+    startDate: "2020-09"
+    endDate: "2023-06"
+    courses: []
+  - institution: "南通职业大学"
+    area: "软件技术"
+    studyType: "专科"
+    startDate: "2019-09"
+    endDate: "2022-06"
+    courses: []
+
+skills:
+  - name: "后端开发"
+    level: "Advanced"
+    keywords:
+      - "Java"
+      - "Node.js"
+      - "Spring Boot"
+      - "Go"
+      - "RESTful API"
+      - "MySQL"
+      - "PostgreSQL"
+      - "Redis"
+  - name: "前端开发"
+    level: "Intermediate"
+    keywords:
+      - "JavaScript"
+      - "TypeScript"
+      - "React"
+      - "HTML/CSS"
+  - name: "运维与工具"
+    level: "Intermediate"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Git"
+      - "CI/CD"
+      - "Nginx"
+      - "微服务"
+
+projects:
+  - name: "茶叶溯源SaaS平台"
+    description: "为传统茶叶企业提供一站式溯源解决方案，包含库存管理、供应链追踪、质量检测等模块"
+    highlights:
+      - "使用Java Spring Boot开发后端服务，MySQL存储百万级溯源数据"
+      - "实现库存管理核心功能：批次管理、库存预警、出入库记录、库存盘点"
+      - "设计供应链数据模型，支持从茶园到消费者的全链路追溯"
+      - "与第三方物流系统对接，实现物流信息实时同步"
+
+  - name: "AIVideoGenerator.Best"
+    url: "https://aivideogenerator.best"
+    description: "AI视频生成SaaS平台，集成多种AI视频生成API，支持用户订阅与按需付费模式"
+    highlights:
+      - "独立负责全栈开发，使用Next.js + Node.js + PostgreSQL技术栈"
+      - "实现异步任务队列处理视频生成请求，支持并发处理与失败重试机制"
+      - "集成Stripe支付系统，支持订阅制与按量计费两种模式"
+
+languages:
+  - language: "中文"
+    fluency: "母语"
+  - language: "英语"
+    fluency: "读写流利，可进行技术文档阅读与邮件沟通"

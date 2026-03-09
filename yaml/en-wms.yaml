@@ -1,0 +1,114 @@
+basics:
+  name: "Runlin Wang"
+  label: "Backend Engineer / Full-Stack Engineer"
+  email: "alin.runlin@gmail.com"
+  phone: "+86 17778595680"
+  url: "https://github.com/wangrunlin"
+  summary: "Software developer with 5 years of experience, including 3 years in B2B system development. Proficient in Java/Node.js backend development, familiar with MySQL database design and optimization. Experienced in RESTful API development and system integration. Background in inventory management and supply chain traceability projects. Adaptable to remote work with strong self-motivation and cross-timezone communication skills."
+  location:
+    city: "Remote"
+    countryCode: "CN"
+  profiles:
+    - network: "GitHub"
+      username: "wangrunlin"
+      url: "https://github.com/wangrunlin"
+
+work:
+  - name: "Independent Developer / Indie Hacker"
+    position: "Full-Stack Engineer"
+    startDate: "2024-11"
+    endDate: "Present"
+    summary: "Independently operating AI SaaS products, handling full-cycle development from 0 to 1, serving global users."
+    highlights:
+      - "Independently developed and operated AIVideoGenerator.Best using Next.js + Node.js, serving 500+ users with first international revenue"
+      - "Designed and implemented core modules including payment system (Stripe integration), user permission management, and async task queues"
+      - "Built scalable backend architecture supporting third-party API integrations (AI image/video generation services)"
+      - "Optimized database query performance, reducing critical API response time from 800ms to 150ms"
+
+  - name: "idea2app"
+    position: "Web Full-Stack Engineer"
+    startDate: "2022-09"
+    endDate: "2024-11"
+    summary: "Provided business information consulting and customized software development services for SMEs, leading multiple B2B systems from requirements analysis to production."
+    highlights:
+      - "Developed enterprise management systems using React + Node.js/Koa.js for 10+ clients with zero major incidents in production"
+      - "Designed RESTful API specifications and integrated with third-party logistics and payment platforms, processing 1000+ daily orders"
+      - "Led PostgreSQL database architecture design and optimization, writing complex queries and stored procedures, improving report generation efficiency by 40%"
+      - "Built Docker containerized deployment pipeline with CI/CD automation, reducing deployment time from 30 minutes to 5 minutes"
+
+  - name: "Chengdu Technology Information Co., Ltd."
+    position: "Backend Engineer"
+    startDate: "2021-09"
+    endDate: "2022-06"
+    summary: "Participated in tea traceability SaaS platform development, responsible for core data modules and supply chain tracking features, with inventory management and logistics experience."
+    highlights:
+      - "Developed product traceability APIs using Java Spring Boot, supporting efficient queries on millions of records"
+      - "Designed and implemented inventory management module with batch tracking, stock alerts, and inbound/outbound records - core WMS functionalities"
+      - "Participated in supply chain data flow design, implementing full-chain traceability from raw materials to finished goods"
+      - "Wrote technical and API documentation, assisted frontend team with system integration, ensuring on-time project delivery"
+
+education:
+  - institution: "Nanjing University of Science and Technology"
+    area: "Computer Science and Technology"
+    studyType: "Bachelor"
+    startDate: "2020-09"
+    endDate: "2023-06"
+    courses: []
+  - institution: "Nantong Vocational University"
+    area: "Software Technology"
+    studyType: "Associate Degree"
+    startDate: "2019-09"
+    endDate: "2022-06"
+    courses: []
+
+skills:
+  - name: "Backend Development"
+    level: "Advanced"
+    keywords:
+      - "Java"
+      - "Node.js"
+      - "Spring Boot"
+      - "Go"
+      - "RESTful API"
+      - "MySQL"
+      - "PostgreSQL"
+      - "Redis"
+  - name: "Frontend Development"
+    level: "Intermediate"
+    keywords:
+      - "JavaScript"
+      - "TypeScript"
+      - "React"
+      - "HTML/CSS"
+  - name: "DevOps & Tools"
+    level: "Intermediate"
+    keywords:
+      - "Linux"
+      - "Docker"
+      - "Git"
+      - "CI/CD"
+      - "Nginx"
+      - "Microservices"
+
+projects:
+  - name: "Tea Traceability SaaS Platform"
+    description: "One-stop traceability solution for traditional tea enterprises, including inventory management, supply chain tracking, and quality inspection modules"
+    highlights:
+      - "Developed backend services using Java Spring Boot, MySQL for storing millions of traceability records"
+      - "Implemented core inventory management features: batch management, stock alerts, inbound/outbound records, inventory counting"
+      - "Designed supply chain data model supporting full-chain traceability from tea gardens to consumers"
+      - "Integrated with third-party logistics systems for real-time shipping information synchronization"
+
+  - name: "AIVideoGenerator.Best"
+    url: "https://aivideogenerator.best"
+    description: "AI video generation SaaS platform integrating multiple AI video generation APIs with subscription and pay-per-use models"
+    highlights:
+      - "Independently responsible for full-stack development using Next.js + Node.js + PostgreSQL"
+      - "Implemented async task queue for video generation requests with concurrency handling and retry mechanisms"
+      - "Integrated Stripe payment system supporting both subscription and usage-based billing"
+
+languages:
+  - language: "Chinese"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Proficient in reading/writing, capable of technical documentation and email communication"
