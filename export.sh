@@ -21,6 +21,7 @@ mv yaml/*.html out/
 # router
 cp out/en.html out/index.html
 cp out/simple-en.html out/simple.html
+cp out/zh-wms.html out/wms.html
 
 rm yaml/*.json
 rm yaml/*.patch
